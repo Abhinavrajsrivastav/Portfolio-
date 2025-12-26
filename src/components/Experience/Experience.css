@@ -1,0 +1,178 @@
+.experience-section {
+  padding: 80px 20px;
+  background: radial-gradient(circle at top, #1a102a, #0b0614);
+}
+
+.experience-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.experience-title h2 {
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.experience-title span {
+  color: #c770f0;
+}
+
+.experience-title p {
+  text-align: center;
+  margin-top: 8px;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+/* Timeline */
+.timeline {
+  text-align: start;
+  position: relative;
+  margin-left: 20px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background: rgba(199, 112, 240, 0.3);
+}
+
+/* Card */
+.timeline-card {
+  position: relative;
+  margin-bottom: 40px;
+  padding-left: 40px;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -2px;
+  top: 6px;
+  width: 14px;
+  height: 14px;
+  background: #c770f0;
+  border-radius: 50%;
+  box-shadow: 0 0 12px rgba(199, 112, 240, 0.8);
+}
+
+.card-box {
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 14px;
+  padding: 26px 28px;
+  transition: all 0.3s ease;
+}
+
+.card-box:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* Header */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.role {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.company {
+  color: #c770f0;
+  font-weight: 600;
+}
+
+.duration {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Details */
+.meta {
+  font-size: 0.9rem;
+  margin-bottom: 14px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.points {
+  padding-left: 18px;
+  margin-bottom: 14px;
+}
+
+.points li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* Skills */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill {
+  font-size: 0.8rem;
+  padding: 6px 12px;
+  border-radius: 16px;
+  background: rgba(199, 112, 240, 0.15);
+  color: #e5c7ff;
+}
+
+/* Logo */
+.company-logo {
+  width: 54px;
+  height: 54px;
+  border-radius: 12px;
+  background: rgba(199, 112, 240, 0.12);
+  border: 1px solid rgba(199, 112, 240, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.company-logo img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
+/* Header with logo */
+.card-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  justify-content: space-between;
+}
+
+.card-left {
+  display: flex;
+  gap: 14px;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .experience-title h2 {
+    font-size: 2.2rem;
+  }
+
+  .timeline {
+    margin-left: 10px;
+  }
+
+  .timeline-card {
+    padding-left: 30px;
+  }
+}
