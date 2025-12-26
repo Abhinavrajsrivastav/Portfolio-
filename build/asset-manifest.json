@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/Portfolio-/static/css/main.4f9fcd5f.css",
+    "main.js": "/Portfolio-/static/js/main.0266507a.js",
+    "static/js/453.ace21015.chunk.js": "/Portfolio-/static/js/453.ace21015.chunk.js",
+    "static/media/Educome.jpg": "/Portfolio-/static/media/Educome.ff2616f664c8c0ceab91.jpg",
+    "static/media/AyodhyaDham.jpg": "/Portfolio-/static/media/AyodhyaDham.eabfc16e7a146ab15778.jpg",
+    "static/media/Interview.jpg": "/Portfolio-/static/media/Interview.1b585492490c8c1cace9.jpg",
+    "static/media/Abhinav_Raj_Srivastava_Resume.pdf": "/Portfolio-/static/media/Abhinav_Raj_Srivastava_Resume.0234124e097980430d45.pdf",
+    "static/media/home-main.svg": "/Portfolio-/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
+    "static/media/about.png": "/Portfolio-/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/avatar.svg": "/Portfolio-/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
+    "static/media/SQL.svg": "/Portfolio-/static/media/SQL.52fc098126b8b29ddd950a944b5d0026.svg",
+    "static/media/Mongo.svg": "/Portfolio-/static/media/Mongo.330a0b8d252ae55ce72f3b6d60388b73.svg",
+    "static/media/AWS.svg": "/Portfolio-/static/media/AWS.f12ad75c9817aebf73d32f167ea894de.svg",
+    "static/media/Docker.svg": "/Portfolio-/static/media/Docker.b02bde45de78f064309327b59c188428.svg",
+    "static/media/Postman.svg": "/Portfolio-/static/media/Postman.731600ddded53e009b672b2130661997.svg",
+    "static/media/intellij-idea.svg": "/Portfolio-/static/media/intellij-idea.a665ae5920b20b5c309de0aa306924d5.svg",
+    "static/media/vscode.svg": "/Portfolio-/static/media/vscode.01c32f3da6e0380beb0ed980549fa10d.svg",
+    "static/media/Google Chrome.svg": "/Portfolio-/static/media/Google Chrome.d37257e4fd1f57a382e297a74a566225.svg",
+    "static/media/Python.svg": "/Portfolio-/static/media/Python.4c10e3e883c66039a07b3d1da3551107.svg",
+    "static/media/React.svg": "/Portfolio-/static/media/React.dab5e742691999bfe3df57d8d690607b.svg",
+    "static/media/Kafka.svg": "/Portfolio-/static/media/Kafka.1f6a104744340c27bd487b615c410f40.svg",
+    "static/media/pre.svg": "/Portfolio-/static/media/pre.4410c5baaa673cc131da.svg",
+    "static/media/Redis.svg": "/Portfolio-/static/media/Redis.7ac40ab1d2316ea5966d91616729eb64.svg",
+    "static/media/Java.svg": "/Portfolio-/static/media/Java.edcb9f2574179c38ce343ae59e91b5bc.svg",
+    "static/media/Node.svg": "/Portfolio-/static/media/Node.066ea1a40c1c8f42c3facd6c4128111d.svg",
+    "static/media/Javascript.svg": "/Portfolio-/static/media/Javascript.2d2e6d4fde8c0beaf89875c287164a7c.svg",
+    "static/media/Git.svg": "/Portfolio-/static/media/Git.9da88573cca3c97a3a1523ae09d93654.svg",
+    "index.html": "/Portfolio-/index.html",
+    "static/media/Apple MacOSX.svg": "/Portfolio-/static/media/Apple MacOSX.619ec76bf469e3d85a245a7d132edec9.svg",
+    "main.4f9fcd5f.css.map": "/Portfolio-/static/css/main.4f9fcd5f.css.map",
+    "main.0266507a.js.map": "/Portfolio-/static/js/main.0266507a.js.map",
+    "453.ace21015.chunk.js.map": "/Portfolio-/static/js/453.ace21015.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f9fcd5f.css",
+    "static/js/main.0266507a.js"
+  ]
+}
