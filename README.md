@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">Abhinav Raj</a>
+  <a href="https://abhinavrajsrivastav.github.io/Portfolio-/" target="_blank">Abhinav Raj Srivastava</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme-img1.png" />

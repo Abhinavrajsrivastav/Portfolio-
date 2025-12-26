@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-/static/css/main.4f9fcd5f.css",
-    "main.js": "/Portfolio-/static/js/main.0266507a.js",
+    "main.js": "/Portfolio-/static/js/main.b5fcd713.js",
     "static/js/453.ace21015.chunk.js": "/Portfolio-/static/js/453.ace21015.chunk.js",
     "static/media/Educome.jpg": "/Portfolio-/static/media/Educome.ff2616f664c8c0ceab91.jpg",
     "static/media/AyodhyaDham.jpg": "/Portfolio-/static/media/AyodhyaDham.eabfc16e7a146ab15778.jpg",
@@ -30,11 +30,11 @@
     "index.html": "/Portfolio-/index.html",
     "static/media/Apple MacOSX.svg": "/Portfolio-/static/media/Apple MacOSX.619ec76bf469e3d85a245a7d132edec9.svg",
     "main.4f9fcd5f.css.map": "/Portfolio-/static/css/main.4f9fcd5f.css.map",
-    "main.0266507a.js.map": "/Portfolio-/static/js/main.0266507a.js.map",
+    "main.b5fcd713.js.map": "/Portfolio-/static/js/main.b5fcd713.js.map",
     "453.ace21015.chunk.js.map": "/Portfolio-/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4f9fcd5f.css",
-    "static/js/main.0266507a.js"
+    "static/js/main.b5fcd713.js"
   ]
 }
