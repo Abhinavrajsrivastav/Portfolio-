@@ -1,5 +1,5 @@
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import "./AboutCard.css";
 
 function AboutCard() {
   return (
@@ -8,11 +8,11 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi! I'm <span className="purple">Abhinav Raj Srivastava</span>{" "}
-            from <span className="purple">Ghaziabad, Uttar Pradesh</span>.
+            from <span className="purple">Ayodhya, Uttar Pradesh</span>.
             <br />
-            I'm a <span className="purple">Full-Stack Software Engineer</span>{" "}
-            specializing in <span className="purple">scalable, cloud-native systems</span>.
-            <br />I graduated with a B.Tech in <span className="purple">Computer Science (AIML)</span> from{" "}
+            I'm a <span className="purple">Software Engineer at Sopra Steria</span>{" "}
+            specializing in <span className="purple">Java, Spring Boot, Struts, MYSQL, Oracle DB, Kafka, scalable, cloud-native systems</span>.
+            <br />I graduated with a B.Tech in July 2025 from <span className="purple">Computer Science (AIML)</span> from{" "}
             <span className="purple">ABES Engineering College, Ghaziabad</span>.
             <br />
             <br />
@@ -21,19 +21,22 @@ function AboutCard() {
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Multi-Tenant Architecture Design 🏗️
+            Java Full-Stack Development 
             </li>
             <li className="about-activity">
-              <ImPointRight /> Real-Time Data Processing Systems ⚡
+            Microservices Architecture & RESTful APIs With Spring and Spring Boot
             </li>
             <li className="about-activity">
-              <ImPointRight /> AI-Powered Platform Development 🤖
+              AI-Powered Platform Development (Spring Ai, LLM Models, MCP Servers, MCP Clients) 🤖
             </li>
             <li className="about-activity">
-              <ImPointRight /> Cloud Technologies & Microservices ☁️
+               Cloud Computing & DevOps With CICD, Kafka, Redis and Docker ☁️
             </li>
             <li className="about-activity">
-              <ImPointRight /> Open Source Contribution 🌟
+            Open Source Contribution 🌟
+            </li>
+            <li>
+            Tech Blogging & Community Engagement ✍️
             </li>
           </ul>
 

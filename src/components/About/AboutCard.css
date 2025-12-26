@@ -1,0 +1,72 @@
+/* ===== About Card ===== */
+
+.quote-card-view {
+  background: rgba(17, 25, 40, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 20px 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(12px);
+  transition: all 0.3s ease-in-out;
+}
+
+.quote-card-view:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.45);
+}
+
+/* ===== Text Styling ===== */
+
+.quote-card-view blockquote {
+  margin: 0;
+}
+
+.quote-card-view p {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: #cfd8dc;
+}
+
+.purple {
+  color: #b26aff;
+  font-weight: 600;
+}
+
+/* ===== List Styling ===== */
+
+.about-activity {
+  display: flex;
+  align-items: center;
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+  color: #e0e0e0;
+  letter-spacing: 0.2px;
+}
+
+.about-activity::before {
+  content: "▸";
+  color: #b26aff;
+  font-size: 1.1rem;
+  margin-right: 10px;
+}
+
+/* ===== Quote ===== */
+
+.quote-card-view footer {
+  margin-top: 18px;
+  font-size: 0.9rem;
+  color: #9aa7b1;
+  text-align: right;
+}
+
+/* ===== Responsive ===== */
+
+@media (max-width: 768px) {
+  .quote-card-view {
+    padding: 18px;
+  }
+
+  .quote-card-view p {
+    font-size: 0.95rem;
+  }
+}
