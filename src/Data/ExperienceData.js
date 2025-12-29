@@ -2,7 +2,7 @@ const ExperienceData = () => {
   const experiences = [
     {
       id: 1,
-      company: "Sopra Stera",
+      company: "Sopra Steria",
       position: "Software Engineering Trainee",
       logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBxG5LI2mOMTnJWTzdqytcej7YJBFPW4r2opWvr0d1GmXezuNoYJ7ExLD19MgmX65gtQbOvepx",
       duration: "Nov 2025 - Present",
