@@ -16,9 +16,9 @@ function AboutCard() {
             <span className="purple">ABES Engineering College, Ghaziabad</span>.
             <br />
             <br />
+            
             I specialize in:
           </p>
-
           <ul>
             <li className="about-activity">
             Java Full-Stack Development 

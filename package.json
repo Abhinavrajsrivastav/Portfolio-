@@ -29,9 +29,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "clean": "if exist build rmdir /s /q build & exit /b 0 || exit /b 0",
+    "predeploy": "npm run clean && npm run build",
     "deploy": "gh-pages -d build"
   },
+  
   "eslintConfig": {
     "extends": [
       "react-app",
