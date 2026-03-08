@@ -3,6 +3,7 @@ import AyodhyaDham from "../../Assets/Projects/AyodhyaDham.png";
 import Hindlish from "../../Assets/Projects/Cold-pay.png";
 import Interview from "../../Assets/Projects/columbae.png";
 import Educome from "../../Assets/Projects/educome.png";
+import Edufly from '../../Assets/Projects/Edufly.png';
 import YTS from "../../Assets/Projects/yts.png";
 import Particle from "../Particle";
 import ProjectCard from "./ProjectCards";
@@ -19,6 +20,16 @@ function Projects() {
           Here are a few projects I've worked on recently. Each represents a significant learning milestone and real-world application of my skills.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+  <ProjectCard
+    imgPath={Edufly} 
+    isBlog={false}
+    title="Edufly - Full-Stack Student Management System"
+    description="A robust management portal developed during my Java Software Engineering training at Mthree. It features a complete CRUD lifecycle for student records with a responsive React frontend and a RESTful Spring Boot backend. The system is containerized using Docker and deployed on Render, utilizing Aiven as the managed cloud database provider to ensure high availability."
+    ghLink="https://github.com/Abhinavrajsrivastav/student-managementSystemB"
+    demoLink="https://student-managementsystemf.onrender.com"
+  />
+</Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Educome}

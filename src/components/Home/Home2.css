@@ -1,0 +1,14 @@
+.profile-circle {
+  /* This creates the circle */
+  border-radius: 50%;
+  
+  /* This prevents squishing and maintains aspect ratio */
+  object-fit: cover;
+  
+  /* Optional: Set a specific size if it isn't set on a parent element */
+  width: 300px;  /* or whatever size matches your design */
+  height: 300px; /* should be the same as width for a perfect circle */
+
+  /* Optional: Make it act as a mask if the black is on the image itself */
+  -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+}
