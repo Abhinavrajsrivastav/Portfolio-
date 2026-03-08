@@ -1,6 +1,6 @@
 const ExperienceData = () => {
   const experiences = [
-    {
+    /* {
       id: 1,
       company: "Sopra Steria",
       position: "Software Engineering Trainee",
@@ -18,6 +18,27 @@ const ExperienceData = () => {
       ],
       skills: ["Java", "Spring Boot", "Apache Kafka", "Struts", "SDLC", "Agile"],
       achievements: ["Real-time data processing", "Performance optimization", "Security implementation"]
+    },
+    */
+    {
+      id: 0, // Assigned 0 to keep it at the top as the most recent/relevant training
+      company: "MThree (Wiley Edge)",
+      position: "Software Development Graduate Trainee (Java)",
+      logo: "https://media.licdn.com/dms/image/v2/D560BAQGwCsz_B7PeWw/company-logo_200_200/company-logo_200_200/0/1719256553345/mthree_logo?e=2147483647&v=beta&t=8FF7gknogA-s98EP7Mij4k29FoSgfGGi1aW_F5-xovE", 
+      duration: "Aug 2025 - Oct 2025",
+      period: "3 months",
+      location: "Remote/Noida",
+      type: "Training",
+      status: "Completed",
+      description: [
+        "Underwent rigorous full-stack training focused on Core Java, Advanced Java (J2EE), and Spring Boot ecosystem.",
+        "Developed end-to-end applications integrating React.js frontends with high-performance Spring Boot backends and MySQL databases.",
+        "Mastered modern DevOps tools including Docker for containerization and Git/GitHub for version control and collaborative development.",
+        "Explored distributed systems using Apache Kafka for event-driven architecture.",
+        "Refined professional ethics, business communication, and agile methodologies to align with global corporate standards."
+      ],
+      skills: ["Core Java", "Spring Boot", "React.js", "MySQL", "Docker", "Apache Kafka", "Git", "Agile"],
+      achievements: ["Full-stack Proficiency", "Corporate Readiness", "Advanced System Design"]
     },
     {
       id: 1,
@@ -80,10 +101,10 @@ const ExperienceData = () => {
   ];
 
   const stats = [
-    { label: "Companies", value: "3", color: "#3fb983" },
-    { label: "Months", value: "8+", color: "#7dd3fc" },
-    { label: "Technologies", value: "15+", color: "#f87171" },
-    { label: "Projects", value: "5+", color: "#fbbf24" }
+    { label: "Companies", value: "4", color: "#3fb983" }, // Increased to 4 as MThree is a major addition
+    { label: "Months", value: "11+", color: "#7dd3fc" }, // Adjusted total months
+    { label: "Technologies", value: "18+", color: "#f87171" },
+    { label: "Projects", value: "6+", color: "#fbbf24" }
   ];
 
   return { experiences, stats };
