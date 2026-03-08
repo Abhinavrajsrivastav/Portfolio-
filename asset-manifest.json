@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-/static/css/main.35af8926.css",
-    "main.js": "/Portfolio-/static/js/main.0594bc2b.js",
+    "main.css": "/Portfolio-/static/css/main.867d24a4.css",
+    "main.js": "/Portfolio-/static/js/main.7c5ec316.js",
     "static/js/453.ace21015.chunk.js": "/Portfolio-/static/js/453.ace21015.chunk.js",
     "static/media/yts.png": "/Portfolio-/static/media/yts.4cd139c7d29211b395eb.png",
     "static/media/AyodhyaDham.png": "/Portfolio-/static/media/AyodhyaDham.3d149d113d5ea921f99a.png",
@@ -11,7 +11,8 @@
     "static/media/home-main.svg": "/Portfolio-/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
     "static/media/about.png": "/Portfolio-/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/educome.png": "/Portfolio-/static/media/educome.3c18e01650dd12f33279.png",
-    "static/media/avatar.svg": "/Portfolio-/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
+    "static/media/Edufly.png": "/Portfolio-/static/media/Edufly.4a6eda024a6d1a714d55.png",
+    "static/media/myinh.jpeg": "/Portfolio-/static/media/myinh.5a0433e3289b683f1672.jpeg",
     "static/media/SQL.svg": "/Portfolio-/static/media/SQL.52fc098126b8b29ddd950a944b5d0026.svg",
     "static/media/Mongo.svg": "/Portfolio-/static/media/Mongo.330a0b8d252ae55ce72f3b6d60388b73.svg",
     "static/media/AWS.svg": "/Portfolio-/static/media/AWS.f12ad75c9817aebf73d32f167ea894de.svg",
@@ -31,12 +32,12 @@
     "static/media/Git.svg": "/Portfolio-/static/media/Git.9da88573cca3c97a3a1523ae09d93654.svg",
     "index.html": "/Portfolio-/index.html",
     "static/media/Apple MacOSX.svg": "/Portfolio-/static/media/Apple MacOSX.619ec76bf469e3d85a245a7d132edec9.svg",
-    "main.35af8926.css.map": "/Portfolio-/static/css/main.35af8926.css.map",
-    "main.0594bc2b.js.map": "/Portfolio-/static/js/main.0594bc2b.js.map",
+    "main.867d24a4.css.map": "/Portfolio-/static/css/main.867d24a4.css.map",
+    "main.7c5ec316.js.map": "/Portfolio-/static/js/main.7c5ec316.js.map",
     "453.ace21015.chunk.js.map": "/Portfolio-/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.35af8926.css",
-    "static/js/main.0594bc2b.js"
+    "static/css/main.867d24a4.css",
+    "static/js/main.7c5ec316.js"
   ]
 }
