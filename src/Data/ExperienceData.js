@@ -1,6 +1,25 @@
 const ExperienceData = () => {
   const experiences = [
-    /* {
+    {
+      id: 5,
+      company: "JPMorgan Chase & Co.",
+      position: "Software Engineer (via MThree)",
+      logo: "https://pbs.twimg.com/profile_images/1605200105799401474/9cb5qdVk_400x400.png", // Replace with actual JPMC logo URL if needed
+      duration: "April 2026 - Present",
+      period: "Current",
+      location: "Bengaluru, Karnataka, India",
+      type: "On-site",
+      status: "Current",
+      description: [
+        "Onboarded onto the enterprise engineering team, gaining foundational knowledge of internal banking applications and financial systems.",
+        "Participated in initial knowledge transfer (KT) sessions, system architecture walkthroughs, and code repos orientation.",
+        "Collaborating with cross-functional agile teams to understand business requirements and the secure SDLC lifecycle.",
+        "Setting up the local development environment, configuring enterprise-grade toolchains, and assisting in basic debugging and minor feature sprints."
+      ],
+      skills: ["Java", "Spring Boot", "Enterprise Architecture", "Git", "Agile", "SDLC"],
+      achievements: ["Corporate Onboarding", "System Familiarization"]
+    },
+    {
       id: 1,
       company: "Sopra Steria",
       position: "Software Engineering Trainee",
@@ -19,7 +38,6 @@ const ExperienceData = () => {
       skills: ["Java", "Spring Boot", "Apache Kafka", "Struts", "SDLC", "Agile"],
       achievements: ["Real-time data processing", "Performance optimization", "Security implementation"]
     },
-    */
     {
       id: 0, // Assigned 0 to keep it at the top as the most recent/relevant training
       company: "MThree (Wiley Edge)",
@@ -79,32 +97,32 @@ const ExperienceData = () => {
       skills: ["React.js", "Java", "Spring Boot", "MySQL", "Firebase", "HTML", "CSS", "Video Conferencing"],
       achievements: ["Full-stack development", "Real-time features", "Database design"]
     },
-    {
-      id: 3,
-      company: "Google",
-      position: "Gemini API Developer Competition",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1200px-Google_%22G%22_logo.svg.png",
-      duration: "June 2024 - August 2024",
-      period: "3 months",
-      location: "Remote",
-      type: "Competition",
-      status: "Completed",
-      description: [
-        "Designed and developed Educome, an interactive platform aimed at enhancing educational experiences using generative AI (Google's Gemini).",
-        "Utilized Google's Gemini API to integrate intelligent features such as Projects Search, Book Search, developer match, developments rating & ranking, and Learn with Generative AI.",
-        "Frontend: Created responsive UI with React.js and HTML/CSS.",
-        "Database: Used MySQL database for user's data management and Google's Firebase for user signup/login/logout."
-      ],
-      skills: ["React.js", "Gemini API", "Firebase", "MySQL", "HTML", "CSS", "AI Integration", "Generative AI"],
-      achievements: ["AI platform development", "API integration", "Educational technology"]
-    }
+    // {
+    //   id: 3,
+    //   company: "Google",
+    //   position: "Gemini API Developer Competition",
+    //   logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1200px-Google_%22G%22_logo.svg.png",
+    //   duration: "June 2024 - August 2024",
+    //   period: "3 months",
+    //   location: "Remote",
+    //   type: "Competition",
+    //   status: "Completed",
+    //   description: [
+    //     "Designed and developed Educome, an interactive platform aimed at enhancing educational experiences using generative AI (Google's Gemini).",
+    //     "Utilized Google's Gemini API to integrate intelligent features such as Projects Search, Book Search, developer match, developments rating & ranking, and Learn with Generative AI.",
+    //     "Frontend: Created responsive UI with React.js and HTML/CSS.",
+    //     "Database: Used MySQL database for user's data management and Google's Firebase for user signup/login/logout."
+    //   ],
+    //   skills: ["React.js", "Gemini API", "Firebase", "MySQL", "HTML", "CSS", "AI Integration", "Generative AI"],
+    //   achievements: ["AI platform development", "API integration", "Educational technology"]
+    // }
   ];
 
   const stats = [
-    { label: "Companies", value: "4", color: "#3fb983" }, // Increased to 4 as MThree is a major addition
-    { label: "Months", value: "11+", color: "#7dd3fc" }, // Adjusted total months
-    { label: "Technologies", value: "18+", color: "#f87171" },
-    { label: "Projects", value: "6+", color: "#fbbf24" }
+    { label: "Companies", value: "5", color: "#3fb983" }, // Updated to 5 to account for JPMC
+    { label: "Months", value: "13+", color: "#7dd3fc" },   // Adjusted timeline total
+    { label: "Technologies", value: "20+", color: "#f87171" },
+    { label: "Projects", value: "7+", color: "#fbbf24" }
   ];
 
   return { experiences, stats };
