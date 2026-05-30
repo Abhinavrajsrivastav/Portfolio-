@@ -4,15 +4,14 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import {
-    AiFillStar,
-    AiOutlineFundProjectionScreen,
-    AiOutlineHome,
-    AiOutlineUser,
+  AiFillStar,
+  AiOutlineFundProjectionScreen,
+  AiOutlineHome,
+  AiOutlineUser,
 } from "react-icons/ai";
 import { CgGitFork } from "react-icons/cg";
 import { FaBriefcase, FaTrophy } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import logo from "../Assets/logo.png";
 
 import { CgFileDocument } from "react-icons/cg";
 

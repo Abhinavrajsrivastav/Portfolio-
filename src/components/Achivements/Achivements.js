@@ -121,43 +121,53 @@ function Achivements() {
         </Row>
 
         {/* Certifications */}
-        <Row className="achievement-category mb-5">
-          <Col md={12}>
-            <h3 className="category-title mb-4">
-              <FaCertificate className="category-icon" /> Professional Certifications
-            </h3>
-          </Col>
-          {certificationsData.map((data, index) => (
-            <Col xs={12} md={6} lg={4} key={index} className="mb-4">
-              <div 
-                className={`certification-card ${isVisible ? 'animate-certification-card' : ''}`}
-                style={{ animationDelay: `${(index + AchievementsData.length + 4) * 0.1}s` }}
-              >
-                <div className="certification-badge mb-3">
-                  <img src={data.src} alt={data.name} />
-                </div>
-                <div className="certification-info">
-                  <h4 className="certification-name">{data.name}</h4>
-                  <p className="certification-org text-muted">{data.org}</p>
-                  <p className="certification-description">{data.about}</p>
-                  <div className="certification-skills mb-3">
-                    {data.techs.slice(0, 3).map((tech, techIndex) => (
-                      <span key={techIndex} className="skill-chip">{tech}</span>
-                    ))}
-                  </div>
-                  <a 
-                    href={data.link} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="certification-verify btn btn-sm btn-outline-success"
-                  >
-                    Verify
-                  </a>
-                </div>
-              </div>
-            </Col>
-          ))}
-        </Row>
+<Row className="achievement-category mb-5">
+  <Col md={12}>
+    <h3 className="category-title mb-4">
+      <FaCertificate className="category-icon" /> Professional Certifications
+    </h3>
+  </Col>
+  {certificationsData.map((data, index) => (
+    <Col xs={12} md={6} lg={4} key={index} className="mb-4">
+      <div 
+        className={`certification-card d-flex flex-column justify-content-between ${isVisible ? 'animate-certification-card' : ''}`}
+        style={{ animationDelay: `${(index + AchievementsData.length + 4) * 0.1}s` }}
+      >
+        {/* Optimized Image Container: Centered on all viewports */}
+        <div className="certification-img-container mb-3 d-flex align-items-center justify-content-center">
+          <img src={data.src} alt={data.name} className="img-fluid certification-preview-img" />
+        </div>
+        
+        <div className="certification-info d-flex flex-column flex-grow-1 justify-content-between">
+          <div>
+            <h4 className="certification-name">{data.name}</h4>
+            <p className="certification-org text-muted mb-2">{data.org}</p>
+            <p className="certification-description">{data.about}</p>
+            
+            {/* Wrap skills neatly so they break cleanly on small screens */}
+            <div className="certification-skills d-flex flex-wrap gap-1 mb-3">
+              {data.techs.slice(0, 3).map((tech, techIndex) => (
+                <span key={techIndex} className="skill-chip">{tech}</span>
+              ))}
+            </div>
+          </div>
+          
+          {/* Action Button container aligned uniformly */}
+          <div className="pt-2">
+            <a 
+              href={data.link} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="certification-verify btn btn-sm btn-outline-success w-100"
+            >
+              Verify
+            </a>
+          </div>
+        </div>
+      </div>
+    </Col>
+  ))}
+</Row>
 
         {/* Hackathons */}
         <Row className="achievement-category">
