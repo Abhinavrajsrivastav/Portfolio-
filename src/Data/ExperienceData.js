@@ -25,7 +25,7 @@ const ExperienceData = () => {
       position: "Software Engineering Trainee",
       logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBxG5LI2mOMTnJWTzdqytcej7YJBFPW4r2opWvr0d1GmXezuNoYJ7ExLD19MgmX65gtQbOvepx",
       duration: "Nov 2025 - Present",
-      period: "2 Months",
+      period: "6 Months",
       location: "Noida, Uttar Pradesh, India",
       type: "On-site",
       status: "Current",
