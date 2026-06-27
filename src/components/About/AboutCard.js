@@ -10,7 +10,7 @@ function AboutCard() {
             Hi! I'm <span className="purple">Abhinav Raj Srivastava</span>{" "}
             from <span className="purple">Ayodhya, Uttar Pradesh</span>.
             <br />
-            I'm a <span className="purple">Software Engineer at Sopra Steria</span>{" "}
+            I'm a <span className="purple">Software Engineer at JP Morgan Chase & Co.</span>{" "}
             specializing in <span className="purple">Java, Spring Boot, Struts, MYSQL, Oracle DB, Kafka, scalable, cloud-native systems</span>.
             <br />I graduated with a B.Tech in July 2025 from <span className="purple">Computer Science (AIML)</span> from{" "}
             <span className="purple">ABES Engineering College, Ghaziabad</span>.

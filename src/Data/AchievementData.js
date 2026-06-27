@@ -116,7 +116,7 @@ const AchievementData = () => {
             techs: ["Java"]
         },
         {
-            src: "./images/Achivements/Problem_solving.png",
+            src: "./images/Achivements/Problem_Solving.png",
             gitHub: "",
             org: "Hackerrank",
             name: "Problem Solving In Java",
